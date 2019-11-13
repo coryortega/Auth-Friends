@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.Navbar {
+  background: gray
+}
+
+.Navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navbar ul p {
+  margin: 2%;
+  text-decoration: none;
+  color: white;
+}
+
+.Navbar ul p a{
+  text-decoration: none;
+  color: white;
+}
+
+.friends {
+  display: flex;
+  flex-wrap: wrap;
+}
+.friend {
+  margin: 2%;
+}
